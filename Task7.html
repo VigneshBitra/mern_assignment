@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.vertical-menu {
+  width: 150px;
+  border: 1px solid black;
+  background-color: white;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+
+.vertical-menu a {
+  background-color: #9bd6ef;
+  color: rgba(51, 6, 253, 0.996);
+  display: block;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.vertical-menu a:hover {
+  background-color: #dddeec;
+}
+
+.vertical-menu a.active {
+  background-color: #fba402;
+  color: white;
+}
+.td2{
+            list-style-type: none;
+            width: 100px;
+            background-color: #dddddd;
+            margin: 0;
+            padding: 0;
+            border-right: 1px solid blue;
+        }
+        .td2:last-child {
+            border-right: none;
+        }
+        .a2{
+            display:block;
+            padding: 8px;
+            text-decoration: none;
+            color: blue;
+        }
+        .a2:hover{
+            background-color: #918B81;
+            color: white;
+        }
+        .c2{
+            border: 1px solid black;
+            padding: 5px;
+            position: relative;
+            left: 200px;
+            top: -180px;
+        }
+</style>
+</head>
+<body>
+
+<h1>Vertical Navigation Bar</h1>
+<table>
+    <td border="1" bordercolor="black" height="10" width="600">
+        <tr>
+<div class="vertical-menu">
+  <a href="#" class="active">Home</a>
+  <a href="#">Java</a>
+  <a href="#">CSS</a>
+  <a href="#">HTML</a>
+  <a href="#">Bootstrap</a>
+</div>
+</tr>
+</td>
+</table>
+
+<table class="c2" border="0" cellspacing="0">
+  <tr>
+    <caption><h4>Horizontal Navigation Bar</h4></caption>
+  <td class="td2"><center><a class="a2" href="#">Home</a></center></td>
+            <td class="td2"><center><a class="a2" href="#">Java</a></center></td>
+            <td class="td2"><center><a class="a2" href="#">CSS</a></center></td>
+            <td class="td2"><center><a class="a2" href="#">HTML</a></center></td>
+            <td class="td2"><center><a class="a2" href="#">Bootstrap</a></center></td>
+</tr>
+</table>
+</body>
+</html>
